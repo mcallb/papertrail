@@ -14,7 +14,7 @@ end
 download_directory = ARGV[0]
 
 #Load PaperTrail API key from config file
-config = YAML.load_file('./..config.yaml')
+config = YAML.load_file('./.config.yaml')
 
 #Create header for authentication
 headers = {"X-Papertrail-Token" => config['PT_API_KEY']}
