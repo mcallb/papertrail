@@ -1,8 +1,5 @@
 A simple Ruby script to download the most recent log archive from PaperTrail. Expects a file named .config.yaml in the same directory as the script. Create the file and change the value of the PT_API_KEY:
 	
-```
-PT_API_KEY: SuPeRsEcReTkEy
-```
-```
-ruby get_logs.rb '/tmp/file/location'
-```
+```PT_API_KEY: SuPeRsEcReTkEy```
+
+```ruby get_logs.rb '/tmp/file/location'```
